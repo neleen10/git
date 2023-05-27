@@ -1,0 +1,32 @@
+h1, p { 
+    margin-left: 100px;
+} 
+h1 { 
+    font-size: 70px;
+} 
+p { 
+    font-size: 40px;
+} 
+/* Navigation bar */
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(131, 255, 137);
+} 
+nav ul li { 
+    border-radius: 10px;
+    border: 1px solid rgb(241, 161, 10);
+    padding: 10px;
+    list-style-type: 10;
+    display: inline;
+} 
+li:hover {
+    background-color: rgb(231, 142, 26);
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 1px solid black;
+}
